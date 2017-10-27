@@ -22,11 +22,11 @@ function invertCase(text) {
       tempString += upper;
     }
     else { //is uppercase
-      let lower = LOWER_CASE [ LOWER_CASE.indexOf(char) ];
+      let lower = LOWER_CASE [ UPPER_CASE.indexOf(char) ];
       tempString += lower;
     }
   }
-  return text;
+  return tempString;
 }
 
 
